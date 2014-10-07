@@ -15,8 +15,33 @@ Backends are implement the in different frameworks such as:
  * nodejs
  
 
+The original (xmlplus) was created from XSLT-views and XML data. 
+Some of this legacy remains - but is beeing swapped out for JSON. 
+    
+     NEW STRUCTURE: 
 
+       Records
 
+          Book (Create, Remove)
+            Transactions
 
+          Accounts (Add, remove)
+          Balance (Add, remove)
+		  Metadata (Set)
 
+          Book-Orders (Create, Remove)
+            Transactions (Add, remove, commit)
 
+      
+       Dealing with monthly events in template ledger-orders: 
+
+          Incomes
+          Intäkt (RR)
+          Inbetalning (BR, KF)
+
+          Expenses
+          Kostnad (RR)
+          Utbetalning (BR, KF)
+      
+          Bokslut (omföring)
+       
