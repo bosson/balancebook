@@ -4,9 +4,12 @@
 Balance book is a ledger/book keeping software for small business, 
 that aims to provide overview in a firendly environment. 
 
-Frontend uses jquerymobile and xslt transforms. 
+app uses angular and is derivative from angular-seed
+   "npm install" and "npm start" and browse http://localhost:8000/app/
+
 
 Apiary is used to design the backend API at http://docs.balancebook.apiary.io/
+
 
 Backends are implement the in different frameworks such as: 
 
